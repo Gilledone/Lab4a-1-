@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 class MainClass {
   public static void Main (string[] args) {
@@ -20,12 +21,12 @@ class MainClass {
 
    
     Console.WriteLine("Temperature in Fahrenheit");
-    Array.Reverse(fahrenheit);
+    
     foreach (double item in fahrenheit) 
     {
      Console.WriteLine(item);
     }
-    
+   
     double sum=0, avg=0;
     for(int pos=0; pos < fahrenheit.Length; pos++)
     {
