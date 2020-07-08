@@ -20,8 +20,8 @@ class MainClass {
     }
 
    
-    Console.WriteLine("Temperature in Fahrenheit");
-    
+    Console.WriteLine("Temperature in Fahrenheit descending");
+ 
     foreach (double item in fahrenheit) 
     {
      Console.WriteLine(item);
